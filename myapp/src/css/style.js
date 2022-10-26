@@ -5,5 +5,7 @@ fontSize:"28px"
 
 }
 export const ssf={
-    backgroundColor:"green"
+    backgroundColor:"green",
+    fontSize : '30px',
+
 }

@@ -14,9 +14,13 @@ import React from "react";
 import Qiantao from "./03_qiantao_class";
 import '../css/01css_01class.css'//导入CSS模块。webpackk支持 
 import '../css/style'
-import { ssd } from "../css/style";
+import{ssd}from "../css/style";
+
+
+
 
 class App extends React.Component{
+   
     // 命名首字母要大写
     // extends React.Component可以调用的组件类必须继承
     //reender函数是固定的是用来渲染的
@@ -27,6 +31,10 @@ class App extends React.Component{
     }
         return (
         <div>我是第一大组件
+            
+            <div className="ss">
+                jsdhfjksdf
+            </div>
             <div>
                <Qiantao></Qiantao>
                 {/* 组件嵌套 */}
